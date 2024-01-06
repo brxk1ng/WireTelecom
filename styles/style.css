@@ -79,3 +79,56 @@ body{
     }
   }
   
+
+  /*IDS & CLasses*/
+  .wire-gif {
+    background: rgb(0, 0, 0);
+    border-image-slice: 1;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    width: 75%;
+  }
+
+  .comunicados{
+    width: 35rem; /* Ajuste o tamanho conforme necessário */
+    margin: 1rem; /* Espaçamento entre as imagens */
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  #gif-wire{
+    margin-bottom: 2rem;
+  }
+
+  .column {
+    flex: 1;
+  }
+  .info{
+    padding-left: 1rem;
+    padding-top: 0 ;
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+  }
+
+  /*carrosel*/
+  #carouselExampleControls {
+    max-width: 45%; /* Defina a largura máxima desejada */
+    margin: 2rem auto; /* Centraliza horizontalmente */
+    padding: 5rem;
+  }
+  
+  .carousel-item img {
+ /* Defina o tamanho desejado */
+    height: 50%;    
+    width: 100%;
+  }
+  
